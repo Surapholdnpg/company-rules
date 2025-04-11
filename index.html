@@ -1,28 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ระเบียบการทำงาน</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระเบียบภายในบริษัท</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Prompt', sans-serif;
+      margin: 0;
+      background-color: #FFFFFF;
+      color: #2c3e50;
+    }
+    header {
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    header p {
+      font-size: 1rem;
+      color: #7f8c8d;
+    }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .button-item {
+      background-color: #e9ecef;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      color: #2c3e50;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    .button-item:hover {
+      transform: scale(1.03);
+      background-color: #dee2e6;
+    }
+    .button-item .title {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .button-item .subtitle {
+      font-size: 0.75rem;
+      color: #495057;
+      margin-top: 0.25rem;
+    }
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #7f8c8d;
+    }
+  </style>
 </head>
 <body>
-    <h1>หมวดหมู่ระเบียบบริษัท</h1>
-    <div class="card-container">
-        <a class="card" href="section1.html"><strong>หมวดที่ 1</strong><br>เรื่องทั่วไป</a>
-        <a class="card" href="section2.html"><strong>หมวดที่ 2</strong><br>การสมัครงานและการว่าจ้าง</a>
-        <a class="card" href="section3.html"><strong>หมวดที่ 3</strong><br>วันทำงาน เวลาทำงานปกติ และเวลาพัก</a>
-        <a class="card" href="section4.html"><strong>หมวดที่ 4</strong><br>การทำงานล่วงเวลาและการทำงานในวันหยุด</a>
-        <a class="card" href="section5.html"><strong>หมวดที่ 5</strong><br>การลาหยุดงาน</a>
-        <a class="card" href="section6.html"><strong>หมวดที่ 6</strong><br>การจ่ายค่าจ้าง</a>
-        <a class="card" href="section7.html"><strong>หมวดที่ 7</strong><br>วินัยและบทลงโทษ</a>
-        <a class="card" href="section8.html"><strong>หมวดที่ 8</strong><br>การร้องทุกข์</a>
-        <a class="card" href="section9.html"><strong>หมวดที่ 9</strong><br>การเลิกจ้างและการจ่ายเงินชดเชย</a>
-        <a class="card" href="section10.html"><strong>หมวดที่ 10</strong><br>การจ่ายเงินช่วยเหลือลูกจ้างเมื่อออกจากงาน</a>
-        <a class="card" href="section11.html"><strong>หมวดที่ 11</strong><br>เบ็ดเตล็ด</a>
-        <a class="card" href="section12.html"><strong>หมวดที่ 12</strong><br>สวัสดิการต่างๆ (เพิ่มเติม)</a>
-    </div>
-    <footer>© 2025 บริษัท นิปปอน แกสเก็ต (ประเทศไทย) จำกัด</footer>
+  <header>
+    <h1>ระเบียบภายในบริษัท นิปปอน แกสเก็ต (ประเทศไทย) จำกัด</h1>
+    <p>เลือกหมวดหมู่ด้านล่างเพื่อดูรายละเอียด</p>
+  </header>
+
+  <div class="button-grid">
+    <a class="button-item" href="section1.html"><div class="title">หมวดที่ 1</div><div class="subtitle">เรื่องทั่วไป</div></a>
+    <a class="button-item" href="section2.html"><div class="title">หมวดที่ 2</div><div class="subtitle">การสมัครงานและการว่าจ้าง</div></a>
+    <a class="button-item" href="section3.html"><div class="title">หมวดที่ 3</div><div class="subtitle">วันทำงาน เวลาทำงานปกติ และเวลาพัก</div></a>
+    <a class="button-item" href="section4.html"><div class="title">หมวดที่ 4</div><div class="subtitle">การทำงานล่วงเวลาและการทำงานในวันหยุด</div></a>
+    <a class="button-item" href="section5.html"><div class="title">หมวดที่ 5</div><div class="subtitle">การลาหยุดงาน</div></a>
+    <a class="button-item" href="section6.html"><div class="title">หมวดที่ 6</div><div class="subtitle">การจ่ายค่าจ้าง</div></a>
+    <a class="button-item" href="section7.html"><div class="title">หมวดที่ 7</div><div class="subtitle">วินัยและบทลงโทษ</div></a>
+    <a class="button-item" href="section8.html"><div class="title">หมวดที่ 8</div><div class="subtitle">การร้องทุกข์</div></a>
+    <a class="button-item" href="section9.html"><div class="title">หมวดที่ 9</div><div class="subtitle">การเลิกจ้างและการจ่ายเงินชดเชย</div></a>
+    <a class="button-item" href="section10.html"><div class="title">หมวดที่ 10</div><div class="subtitle">การจ่ายเงินช่วยเหลือลูกจ้างเมื่อออกจากงานโดยไม่มีความผิด</div></a>
+    <a class="button-item" href="section11.html"><div class="title">หมวดที่ 11</div><div class="subtitle">เบ็ดเตล็ด</div></a>
+    <a class="button-item" href="section12.html"><div class="title">หมวดที่ 12</div><div class="subtitle">สวัสดิการต่างๆ (เพิ่มเติม)</div></a>
+  </div>
+
+  <footer>
+    &copy; 2025 บริษัท นิปปอน แกสเก็ต (ประเทศไทย) จำกัด
+  </footer>
 </body>
 </html>
+
